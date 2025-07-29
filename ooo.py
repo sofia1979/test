@@ -3,4 +3,4 @@ print(f"привіт, {name} я чат cat.\nПриємно познайомит
 vik = input("скільки тобі років?\n")
 color = input("який твій улюблений колір?")
 print(f"ой, {color} - це чудовий колір")
-print(f"{name} любить {color}, їй {vik} років")
+print(f"{name} любить {color} колір, їй {vik} років")
