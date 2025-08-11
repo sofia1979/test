@@ -43,3 +43,19 @@ button2.pack(pady=10)
 success_label.pack(pady=10)
 
 wikno.mainloop()
+
+#--------------------------------------------------------------
+
+window = Tk()
+window.title('Атрибути')
+window.geometry("300x300")
+
+firstLabel = Label(window,text='first label', width=15, height=5)
+secondLabel = Label(window,text='second label', width=15, height=5)
+thirdLabel = Label(window,text='third label', width=15, height=5)
+
+firstLabel.place(x=50,y=20)
+secondLabel.place(x=150,y=100)
+thirdLabel.place(relx=0.5,rely=0.2,anchor="center")
+
+window.mainloop() 
