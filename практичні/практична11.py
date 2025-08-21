@@ -53,11 +53,11 @@ homik.config(bg='lightblue')
 l1 = Label(homik, text='Auto Clicker', fg='#4F7972', font=('Arial', 20), bg='lightblue')
 l1.pack(side='top', pady=10)
 
-l2 = Label(homik, text='Кліків на секунду', fg='#4F7972', font=('Arial', 15), bg='lightblue')
-l2.pack(side='top', pady=15)
-
 l3 = Label(homik, text='Інформація:\n Це автоклікер, він буде клікати мишкою зі швидкістю, яку ти вкажеш!\n Ти можеш вийти задопомогою кнопки ESC на клавіатурі', bg='grey', fg='white', font=('Arial',14))
 l3.pack(side='top')
+
+l2 = Label(homik, text='Кліків на секунду', fg='#4F7972', font=('Arial', 15), bg='lightblue')
+l2.pack(side='top', pady=5)
 
 user = Entry(homik, width=30, font=('Arial', 15))
 user.pack(side='top', pady=30)
